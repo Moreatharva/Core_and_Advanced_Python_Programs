@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- Page Title -->
+    <title>Indian Cuisine Menu</title>
+    <style>
+      body {
+        font-family: Arial, sans-serif;
+        background-color: #f8f8f8;
+        margin: 0;
+        padding: 0;
+      }
+      .container {
+        max-width: 1000px;
+        margin: 0 auto;
+        padding: 20px;
+        background-color: white;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+      }
+
+     /* Header styling */
+      header {
+        background-color: #50a4c2;
+        color: white;
+        text-align: center;
+        padding: 1em;
+        border-radius: 8px 8px 0 0;
+      }
+      h1 {
+        margin: 0;
+      }
+      .menu-columns {
+        display: flex;
+        gap: 40px;
+        margin-top: 20px;
+        flex-wrap: wrap;
+      }
+      .column {
+        flex: 1 1 45%;
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+      }
+      .menu-section {
+        background-color: #fafafa;
+        padding: 15px;
+        border-radius: 8px;
+        box-shadow: 0 2px 5px rgba(0, 0, 0, 0.05);
+      }
+      h2 {
+        color: #50a4c2;
+        border-bottom: 2px solid #50a4c2;
+        padding-bottom: 5px;
+        margin-top: 0;
+      }
+      ul {
+        list-style-type: none;
+        padding: 0;
+      }
+      li {
+        padding: 8px 0;
+        border-bottom: 1px solid #ddd;
+        font-size: 1.05em;
+      }
+
+      /* Style for prices on the right */
+      .price {
+        float: right;
+        color: #50a4c2;
+        font-weight: bold;
+      }
+
+      /* Container for YouTube videos */
+      .video-container {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 20px;
+        justify-content: center;
+        margin-top: 30px;
+      }
+      iframe {
+        max-width: 100%;
+        height: 220px;
+        border: none;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <header>
+        <h1>Atharva Restaurant</h1>
+        <p>🙏🏻 We Welcome you Atharva Restaurant 🙏🏻</p>
+      </header>
+
+      <div class="menu-columns">
+        <div class="column">
+          <div class="menu-section">
+            <h2>Starters</h2>
+            <ul>
+              <li>Paneer Tikka <span class="price">₹220</span></li>
+              <li>Veg Samosa <span class="price">₹100</span></li>
+              <li>Chicken Pakora <span class="price">₹180</span></li>
+              <li>Aloo Tikki <span class="price">₹120</span></li>
+            </ul>
+          </div>
+
+          <div class="menu-section">
+            <h2>Main Course</h2>
+            <ul>
+              <li>Butter Chicken <span class="price">₹320</span></li>
+              <li>Paneer Butter Masala <span class="price">₹280</span></li>
+              <li>Dal Makhani <span class="price">₹220</span></li>
+              <li>Rogan Josh <span class="price">₹350</span></li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="column">
+          <div class="menu-section">
+            <h2>Breads</h2>
+            <ul>
+              <li>Butter Naan <span class="price">₹40</span></li>
+              <li>Garlic Naan <span class="price">₹50</span></li>
+              <li>Tandoori Roti <span class="price">₹30</span></li>
+              <li>Lachha Paratha <span class="price">₹45</span></li>
+            </ul>
+          </div>
+
+          <!-- Desserts section -->
+
+          <div class="menu-section">
+            <h2>Desserts</h2>
+            <ul>
+              <li>Gulab Jamun <span class="price">₹90</span></li>
+              <li>Rasgulla <span class="price">₹85</span></li>
+              <li>Kheer <span class="price">₹100</span></li>
+              <li>Jalebi <span class="price">₹70</span></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+
+      <!-- Embedded video section -->
+
+      <div class="menu-section" style="margin-top: 40px">
+        <h2>Watch Our Popular Dishes</h2>
+        <div class="video-container">
+
+            <!-- Butter Chicken YouTube video -->
+          <iframe
+            src="https://www.youtube.com/embed/4aZr5hZXP_s"
+            title="Butter Chicken Recipe"
+          ></iframe>
+
+           <!-- Paneer Tikka YouTube video -->
+          <iframe
+            src="https://www.youtube.com/embed/1-SJGQ2HLp8"
+            title="Paneer Tikka Recipe"
+          ></iframe>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
